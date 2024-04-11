@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Daisy Ui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <div class="navbar bg-base-100">
+        <div class="navbar-start">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+            </div>
+            <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+              <li><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Destinatiom</a></li>
+              <li><a>Search</a></li>
+            </ul>
+          </div>
+          <a class="btn btn-ghost text-xl">P-Ticket</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>About</a></li>
+            <li><a>Destination</a></li>
+            <li><a>Search</a></li>
+          </ul>
+        </div>
+        <div class="navbar-end">
+          <a class="btn">Bus</a>
+          <img src="images/bus-icon.png" alt="">
+        </div>
+      </div>
+
+      <!-- P-Paribohon Hero -->
+  <div class="hero min-h-screen" style="background-image: url(/images/banner.png);">
+  
+  <div class="hero-content text-center text-neutral-content">
+    <div class="max-w-md">
+      <h1 class="mb-5 text-4xl font-bold">End-To-End Travel With</h1>
+      <h1 class="mb-5 text-4xl font-bold text-green-400">P-Paribahan</h1>
+      <p class="mb-5">Programing Travel is a most famous travel company in Bangladesh. All Over the Country Programing Travel Bus going around</p>
+      <button class="btn btn-active btn-accent">Buy Tickets</button>
+    </div>
+  </div>
+</div>
+
+<!-- Offer -->
+<h4 class="text-2xl text-center pt-6 pb-6">Best Offers for you</h4>
+<section class="grid grid-cols-2 p-4 gap-5">
+    <div class="card bg-yellow-500 text-black text-primary-content grid grid-cols-2">
+      <div class="card-body">
+        <h2 class="card-title">15% OFF</h2>
+        <h6 class="text-xl">On your next purchase</h6>
+        <p>Valid untill March 2024</p>
+      </div>
+      <div class="p-6">
+        <h2 class="text-xl text-center">NEW15</h2>
+        <p class="text-center">Cupon Code</p>
+      </div>
+    </div>
+
+  <div class="card bg-pink-400 text-black text-primary-content grid grid-cols-2">
+    <div class="card-body">
+      <h2 class="card-title">20% OFF</h2>
+      <h6 class="text-xl">On your next purchase</h6>
+      <p>Valid untill March 2024</p>
+    </div>
+    <div class="p-6">
+      <h2 class="text-2xl text-center">Couple 20</h2>
+      <p class="text-center">Cupon Code</p>
+    </div>
+  </div>
+  
+</section>
+<div class="text-center pt-4">
+  <button class="btn btn-outline btn-success">See All Offers</button>
+</div>
+
+<section class=" rounded-2xl">
+  <div class="text-center pt-10">
+    <h2 class="text-4xl pt-4 text-bold">P.H Paribahan</h2>
+    <p class="pt-4">Here you collect e-ticket from P.H Paribahan thourough our website and mobile app</p>
+  </div>
+  <!--Grid 3 item-->
+  
+  <section id="buy-ticket">
+    <div class="grid grid-cols-2 pt-12 m-10">
+      <div class="flex">
+        <img class="" src="images/bus-logo.png" alt="">
+        <h2 class="text-bold 2xl p-3">Greenline Paribahan</h2>
+      </div>
+      <div class="grid">
+        <img class="object-left" src="images/seat-green.png" alt="">
+        <p>8 seats left</p>
+      </div>
+      <!-- 
+      <div class="mt-4">
+        <div class="overflow-x-auto">
+          <table class="table">
+              
+              <tr class="bg-base-200">
+                <th></th>
+                <td>Route</td>
+                <td></td>
+                <td>Dhaka-Sylhet</td>
+              </tr>
+              <tr class="bg-base-200">
+                <th></th>
+                <td>Departure Time</td>
+                <td></td>
+                <td>9PM</td>
+              </tr>
+              <tr class="bg-base-200">
+                <th></th>
+                <td>Boarding Point - Laxmipur</td>
+                <td>Dropping Point - Bogura</td>
+                <td>Est. Time - 11 Hour</td>
+              </tr>
+        </div>
+      </div>
+    -->
+    </div>
+  </section>
+</section>
+
+<section>
+  <div class="grid grid-cols-2">
+  <div>
+    <h2 class="text-xl">Select Your Seat</h2>
+    <div>
+      <img src="images/seat-gray.png" alt="">
+      <p>Available</p>
+    </div>
+    <div>
+      <img src="images/seat-green-filled.png" alt="">
+      <p>Selected</p>
+    </div>
+    <kbd class="kbd ">Driver</kbd>
+    <div class="grid grid-cols-2">
+      <div class="flex justify-center gap-1 my-1 w-full">
+        
+      </div> 
+      <div>
+        <kbd class="kbd">A1</kbd>
+        <kbd class="kbd">A2</kbd>
+        <kbd class="kbd">B1</kbd>
+        <kbd class="kbd">B2</kbd>
+      </div>
+      <div>
+        <kbd class="kbd">A3</kbd>
+        <kbd class="kbd">A4</kbd>
+        <kbd class="kbd">B3</kbd>
+        <kbd class="kbd">B4</kbd>
+      </div>
+    </div>
+  </div>
+
+  <div><h2 class="text-xl">Select Your Seat</h2>
+    <div class="table">
+      <tr class="bg-base-200"></tr>
+      <th>Seat</th>
+      <th>class</th>
+      <th>price</th>
+    </div>
+    <div>
+      <input type="text">
+      <button class="btn btn-active btn-primary">Primary</button>
+
+    </div>
+    <div>
+      <h2>Passenger Name</h2>
+      <input type="text">
+    </div>
+    <div>
+      <h2>Phone Number</h2>
+      <input type="text">
+    </div>
+    <div>
+      <h2>Email ID</h2>
+      <input type="email" name="" id="">
+    </div>
+    <button class="btn btn-success">Success</button>
+    <p>Terms & Conditions</p>
+  </div>
+  </div>
+</section>
+<footer class="footer p-10 bg-neutral text-neutral-content">
+  <h2>p-Travel</h2>
+  </aside> 
+  <nav>
+    <h6 class="footer-title">Download Our App</h6> 
+    <img src="images/playstore.png" alt="">
+  </nav>
+</footer>
+<script src="js/script.js"></script>
+</body>
+</html>
